@@ -1,0 +1,133 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+/* header section */
+
+h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+.name-txt{
+    font-weight: 800;
+    color: #EC4C7A;
+}
+.pappi{
+    text-align: justify;
+    color: dimgray;
+}
+button{
+    padding: 10px 26px;
+    background-image: linear-gradient(#EC4F90, #DA4776);
+    border-radius: 4px;
+    cursor: pointer;
+}
+button a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+/* Header Section Start */
+.top-txt{
+    text-align: justify;
+    padding: 180px 0px 0px 140px;
+}
+header .about{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.col-6{
+    width: 45%;
+    float: left;
+}
+.col-6 img{
+    width: 100%;
+}
+
+/* Header secton end */
+
+/* Main Section Start */
+main{
+    margin-top: 140px;
+}
+/* Biography Section */
+
+.biography{
+    background-image: url(images/biography-bg.png);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 5%;
+}
+.bio-img{
+    margin-left: 13%;
+}
+.bio{
+    margin-top: 45%;
+}
+
+/* Biography section close */
+
+/* Works section start */
+.works{
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    margin: 8% 9%;
+    background-image: url(images/latest-work-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    text-align: center;
+}
+.col-4{
+    width: 27%;
+    float: left;
+    padding: 20px 20px;
+}
+.work-img{
+    width: 100%;
+    
+}
+.work-txt{
+    padding-right: 290px;
+    text-decoration: double underline;
+}
+
+/* Footer section */
+.last{
+    height: 700px;
+    width: 100%;
+    margin: 2% 2%;
+    text-align: center;
+    overflow: hidden;
+}
+.review{
+    width: 50%;
+    box-shadow: 8px 10px 20px gray;;
+    align-items: center;
+    margin-left: 360px;
+}
+
+.clint{
+    margin-bottom: 100px;
+    text-decoration: double underline;
+}
+
+.msz{
+    padding-left: 20px;
+    padding-top: 40px;
+}
+#btn{
+    padding: 3px 13px;
+}
+
+p{
+    text-align: center;
+}
